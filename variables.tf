@@ -86,7 +86,7 @@ variable "enable_dns_hostnames" {
 }
 
 variable "public_key_path" {
-  default     = "/root/.ssh/id_rsa.pub"
+  default     = ""
 }
 
 variable "key_name" {
